@@ -14,7 +14,12 @@ def BuildOniOS():
   RunOrDie(['xcodebuild', '-project', 'data_manager/data_manager.xcodeproj', '-configuration', "Release", '-target', "All"])
   RunOrDie(['xcodebuild', '-project', 'data_manager/oss/oss_data_manager.xcodeproj', '-configuration', "Release", '-target', "All"])
   RunOrDie(['xcodebuild', '-project', 'data_manager/oss/oss_data_manager_base.xcodeproj', '-configuration', "Release", '-target', "All"])
+
+  # workaround for __LINKEDIT error
+  RunOrDie(['xcodebuild', '-project', 'dictionary/dictionary.xcodeproj', '-configuration', "Release", '-target', "All", "COPY_PHASE_STRIP=NO"])
+
   RunOrDie(['xcodebuild', '-project', 'dictionary/dictionary.xcodeproj', '-configuration', "Release", '-target', "All"])
+
   RunOrDie(['xcodebuild', '-project', 'dictionary/dictionary_base.xcodeproj', '-configuration', "Release", '-target', "All"])
   RunOrDie(['xcodebuild', '-project', 'dictionary/file/dictionary_file.xcodeproj', '-configuration', "Release", '-target', "All"])
   RunOrDie(['xcodebuild', '-project', 'dictionary/system/system_dictionary.xcodeproj', '-configuration', "Release", '-target', "All"])

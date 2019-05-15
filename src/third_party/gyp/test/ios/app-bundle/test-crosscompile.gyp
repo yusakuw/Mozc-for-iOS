@@ -20,7 +20,7 @@
       'xcode_settings': {
         'SDKROOT': 'iphonesimulator',  # -isysroot
         'TARGETED_DEVICE_FAMILY': '1,2',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
       },
     },
     {

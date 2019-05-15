@@ -13,21 +13,20 @@ https://code.google.com/p/mozc/
 
 ### System Requirements
 
-    Mac OS X 10.9+
-    Xcode 6.0+
-    iOS SDK 8.0+
-    Python 2.7.5
+    Mac OS X 10.14
+    Xcode 10
+    iOS SDK 12
+    Python 2.7.10
     
 ### Tested Environments
-    iPhone 6 Plus, iOS 8.0.2
-    iPhone 4S, iOS 8.0.2
-    iPad mini, iOS 7.1.2
+
+    iPhone SE, iOS 12.3
 
 
 ### Get the Code
 
 ```
-$ git clone git@github.com:kishikawakatsumi/Mozc-for-iOS.git mozc_ios
+$ git clone git@github.com:yusakuw/Mozc-for-iOS.git mozc_ios
 ```
 
 ### Build Instructions

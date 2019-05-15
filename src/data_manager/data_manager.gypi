@@ -71,8 +71,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'conditions': [
         ['target_platform!="Android"', {
@@ -103,8 +103,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'conditions': [
         ['target_platform!="Android"', {
@@ -120,8 +120,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'conditions': [
         ['use_separate_dictionary==1',{
@@ -143,8 +143,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'conditions': [
         ['use_separate_connection_data==1',{
@@ -166,8 +166,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -204,8 +204,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -242,8 +242,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -282,8 +282,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'conditions': [
         ['enable_two_pass_build==0', {
@@ -352,8 +352,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -398,8 +398,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'conditions': [
         ['enable_two_pass_build==0', {
@@ -449,8 +449,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -502,8 +502,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -532,8 +532,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -569,8 +569,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -604,8 +604,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -637,8 +637,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'dependencies': [
         '../../rewriter/rewriter_base.gyp:gen_collocation_data_main#host',
@@ -676,8 +676,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'dependencies': [
         '../../rewriter/rewriter_base.gyp:gen_collocation_data_main#host',
@@ -718,8 +718,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -757,8 +757,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -796,8 +796,8 @@
       ],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {
@@ -843,8 +843,8 @@
       'toolsets': ['host'],
       'xcode_settings' : {
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
-        'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
+        'ARCHS': '$(ARCHS_STANDARD_64_BIT)',
       },
       'actions': [
         {

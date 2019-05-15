@@ -47,7 +47,7 @@
         'GCC_VERSION': 'com.apple.compilers.llvm.clang.1_0',
         'ARCHS': [ 'armv7' ],
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
       },
     },
     {
@@ -75,7 +75,7 @@
         'GCC_VERSION': 'com.apple.compilers.llvm.clang.1_0',
         'ARCHS': [ 'armv7' ],
         'SDKROOT': 'iphoneos',
-        'IPHONEOS_DEPLOYMENT_TARGET': '7.0',
+        'IPHONEOS_DEPLOYMENT_TARGET': '12.0',
       },
     },
   ],
