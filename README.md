@@ -26,7 +26,7 @@ https://code.google.com/p/mozc/
 ### Get the Code
 
 ```
-$ git clone git@github.com:yusakuw/Mozc-for-iOS.git mozc_ios
+$ git clone https://github.com/yusakuw/Mozc-for-iOS.git mozc_ios
 ```
 
 ### Build Instructions
@@ -55,7 +55,7 @@ Device build only, cannot run on the simulator.
 
 ### Sample Project
 
-See https://github.com/kishikawakatsumi/JapaneseKeyboardKit
+See https://github.com/yusakuw/JapaneseKeyboardKit
 
  
 [Apache]: http://www.apache.org/licenses/LICENSE-2.0
