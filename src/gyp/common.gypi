@@ -55,8 +55,8 @@
     'compiler_host_version_int%': '0',  # (major_ver) * 100 + (minor_ver)
 
     # Versioning stuff for Mac.
-    'mac_sdk%': '10.14',
-    'mac_deployment_target%': '10.14',
+    'mac_sdk%': '10.15',
+    'mac_deployment_target%': '10.15',
 
     # 'conditions' is put inside of 'variables' so that we can use
     # another 'conditions' in this gyp element level later. Note that

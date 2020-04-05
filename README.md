@@ -14,14 +14,14 @@ https://code.google.com/p/mozc/
 
 ### System Requirements
 
-    Mac OS X 10.14
+    macOS 10.15 Catalina
     Xcode 10
     iOS SDK 12
     Python 2.7.10
     
 ### Tested Environments
 
-    iPhone SE, iOS 12.3
+    iPhone SE, iOS Simulator 13.4
 
 
 ### Get the Code
@@ -51,8 +51,8 @@ See `src/out_ios/Release-iphoneos`
 
 ### Limitation
 
-Device build only, cannot run on the simulator.
-
+~~Device build only, cannot run on the simulator.~~  
+Now you can run your mozc-enabled apps on the iOS simulators.
 
 ### Sample Project
 
