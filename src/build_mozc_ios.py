@@ -81,9 +81,9 @@ def merge():
       './out_ios/Release-iphoneos/' + filename,
       './out_ios/Release-iphonesimulator/' + filename,
       '-output',
-      './out_ios/Release-iphoneos/' + filename
+      './out_ios/Release-merged/' + filename
     ])
-    os.remove('./out_ios/Release-iphonesimulator/' + filename)
+    # os.remove('./out_ios/Release-iphonesimulator/' + filename)
 
 if __name__ == '__main__':
   BuildOniOS()
